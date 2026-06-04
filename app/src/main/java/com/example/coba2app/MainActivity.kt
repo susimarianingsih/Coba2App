@@ -19,15 +19,20 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        binding.tvLoginHome.setOnClickListener {
+        binding.btnLogin.setOnClickListener {
             val intentlogin = Intent (this, LoginActivity::class.java)
             startActivity(intentlogin)
         }
 
-        binding.tvRegisterHome.setOnClickListener {
+        binding.btnRegister.setOnClickListener {
             val intent = Intent(this, RegisterActivity::class.java)
             startActivity(intent)
         }
+
+//        binding.tvImplicite.setOnClickListener {
+//            val intent = Intent(this, ImpliciteActivity::class.java)
+//            startActivity(intent)
+//        }
 
     }
 }

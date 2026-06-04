@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Warna ketika menu aktif -->
+    <item
+        android:color="#3F51B5"
+        android:state_checked="true" />
+
+    <!-- Warna ketika menu tidak aktif -->
+    <item
+        android:color="#777777"
+        android:state_checked="false" />
+
+</selector>

@@ -12,6 +12,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Coba2App">
         <activity
+            android:name=".DetailBeritaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ImpliciteActivity"
+            android:exported="false" />
+        <activity
             android:name=".ForgetPswActivity"
             android:exported="false" />
         <activity
